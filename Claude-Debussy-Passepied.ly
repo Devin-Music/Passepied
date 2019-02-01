@@ -24,7 +24,9 @@ scoreAViolinI = \relative c'' {
   b4 a8-. gis8-. fis 4-. e8-. d-. |%m4
   cis4\( d8 e8 fis4 a\) |%m5
   gis1~ |%m6
-  gis8 fis8-. gis8-. a8-. b2 \( |%m7
+  gis8 fis8-. gis8-. a8-. b2~ |%m7
+  b8 a8-. b8-. cis8-. d2~ |%m8
+  d
   
 }
 
@@ -37,6 +39,9 @@ scoreAViolinII = \relative c'' {
   r1 |%m5
   r1 |%m6
   r2 fis,4 \( eis4 |%m7
+  cis4 \) r4 a'4 \( gis4 |%m8
+  e4 \) r4 d'2~ |%m9
+  
 }
 
 scoreAViola = \relative c' { 
@@ -48,6 +53,8 @@ scoreAViola = \relative c' {
   a8-. cis,8-. r8 r8 cis'8-. fis,8-. r8 r8 |%m5
   r8 r8 e'8-. gis,8-. r8 r8 cis8-. gis8-. |%m6
   cis8-. fis,8-. r8 r8 b8-. cis,8-. r8 r8 |%m7
+  r8 r8 a'8-. cis,8-. r8 r8 d'8-. e,-. |%m8 
+  r1 |%m9
   
 }
 
@@ -60,6 +67,8 @@ scoreACello = \relative c {
   fis,8-. cis'8-. r8 r8 a8-. fis'8-. r8 r8 |%m5
   cis8-. gis'8-. r8 r8 b,8-. gis'8-. r8 r8 |%m6
   a,8-. fis'8-. r8 r8 gis,8-. cis r8 r8 |%m7
+  fis,8-. cis'8-. r8 r8 b8-. e8-. r8 r8 |%m8
+  a,8 \( e'8 a8 cis \) d,8 \( a'8 d8 fis8 \) |%m9
   
 }
 
