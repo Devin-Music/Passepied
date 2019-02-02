@@ -4,7 +4,7 @@
   title = "Passepied"
   instrument = "For String Quartet"
   composer = "Claude Debussy"
-  arranger = "Devin Gonzales"
+  arranger = "arr. Devin Gonzales"
   copyright = "2019"
   % Remove default LilyPond tagline
   tagline = ##f
@@ -29,7 +29,11 @@ scoreAViolinI = \relative c'' {
   d8 cis8 d8 e8 fis2~ |%m9
   fis2 r2 |%m10
   r1 |%m11
-  r4 a,8-. gis8-. fis4-. e8-. d8-.
+  r4 a,8-. gis8-. fis4-. e8-. d8-. |%m12
+  r8 cis8 d8 e8 fis4 a4 |%m13
+  gis1~ |%m14
+  gis2 a4\( gis'4\) |%m15
+  gis,2 fis4\( e'4\) |%m16
   
 }
 
@@ -46,7 +50,11 @@ scoreAViolinII = \relative c'' {
   e4 \) r4 d'2~ |%m9
   d4 r4 fis,2~  |%m10
   fis4 cis'4-. b2~ |%m11
-  b4 r4 r2 |%m11
+  b4 r4 r2 |%m12
+  r1 |%m13
+  fis1~ |%m14
+  fis2 fis4\( e'4\) |%m15
+  fis,2 d4\( cis'4\) |%m16
   
 }
 
@@ -58,11 +66,16 @@ scoreAViola = \relative c' {
   r8 r8 cis'8-. fis,8-. r8 r8 d'8-. fis,8-. |%m4
   a8-. cis,8-. r8 r8 cis'8-. fis,8-. r8 r8 |%m5
   r8 r8 e'8-. gis,8-. r8 r8 cis8-. gis8-. |%m6
-  cis8-. fis,8-. r8 r8 b8-. cis,8-. r8 r8 |%m7
+  r8 r8 cis8-. fis,8-. r8 r8 b8-. cis,8-. |%m7
   r8 r8 a'8-. cis,8-. r8 r8 d'8-. e,-. |%m8 
   r1 |%m9
   a,8 \( d8 fis8 a8 \) r8 d,8 \( cis8 b8 \) |%m10
   r1 |%m11
+  r8 r8 e8-. b8-. r8 r8 d8-. e,8-. |%m12
+  r8 r8 a8-. e8-. r8 r8 d'8-. cis,8-. |%m13
+  r8 r8 dis'8-. gis,8-. r8 r8 dis'8-. gis,8-. |%m14
+  r8 r8 dis'8-. gis,8-. r8 r8 e'8-. a,8-. |%m15
+  r8 r8 dis8-. gis,8-. r8 r8 d'8-. gis,8-. |%m16
   
 }
 
@@ -79,6 +92,11 @@ scoreACello = \relative c {
   a,8 \( e'8 a8 cis \) d,8 \( a'8 d8 fis8 \) |%m9
   r1 |%m10
   a,8 \( cis8 a8 fis \) gis8 \( b8 e fis,8 \) |%m11
+  e8-. b'8-. r8 r8 b,8-. gis'8-. r8 r8 |%m12
+  a,8-. e'8-. r8 r8 d8-. a'8-. r8 r8 |%m13
+  bis,8-. gis'8-. r8 r8 bis,8-. gis'8-. r8 r8 |%m14
+  bis,8-. gis'8-. r8 r8 cis,8-. a'8-. r8 r8 |%m15
+  bis,8-. gis'8-. r8 r8 b,8-. e8-. r8 r8 |%m16
   
 }
 
