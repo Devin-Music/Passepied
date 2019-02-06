@@ -2,7 +2,6 @@
 
 \header {
   title = "Passepied"
-  instrument = "For String Quartet"
   composer = "Claude Debussy"
   arranger = "arr. Devin Gonzales"
   copyright = "2019"
@@ -47,6 +46,11 @@ scoreAViolinI = \relative c'' {
   b4\( cis4 a2\) |%m26
   a1~ |%m27
   a4 r4 r2 |%m28
+  \tuplet 3/2 {b4\( cis4 a} \tuplet 3/2 {b4 cis4 d\)} |%m29
+  fis4 cis'4 b2 |%m30
+  fis4 r4 r2 |%m31
+  r1 |%m32
+  gis1 |%m33
 }
 
 scoreAViolinII = \relative c'' {
@@ -79,6 +83,11 @@ scoreAViolinII = \relative c'' {
   g1 |%m26
   fis1 |%m27
   r1 |%m28
+  r1 |%m29
+  d'2 eis2 |%30
+  r1 |%m31
+  r1 |%m32
+  r1 |%m33
 }
 
 scoreAViola = \relative c' { 
@@ -111,6 +120,11 @@ scoreAViola = \relative c' {
   d2 d'4\( b4\) |%m26
   \tuplet 3/2 {cis4\( d4 b4} \tuplet 3/2 {cis4 d4 e4\)} |%m27
   \tuplet 3/2 {fis4\( gis4 e4} \tuplet 3/2 {fis4 gis4 a4\)} |%m28
+  r1 |%m29
+  fis4 cis'4 b2~ |%m30
+  b4 a8-. gis8-. fis4-. e8-. d-. |%m31
+  cis4 d8 e8 fis4-. a4-. |%m32
+  fis1 |%m33
 }
 scoreACello = \relative c {
   \global
@@ -142,6 +156,11 @@ scoreACello = \relative c {
   e,8  b'8 e8 g8 e,8 a8 g'8 a,8 |%m26 
   fis8 cis'8 a'8 fis8 e,8 a8 fis'8 a,8 |%m27
   d,8 a'8 d8 fis8 a,8 d8 fis8 a8 |%m28
+  d,8 a'8  d8 fis8 cis,8 fis8 a8 d8 |%m29
+  b,8 fis'8 b8 d8 b,8 eis8 gis8 d'8 |%m30
+  b,8 fis'8 b8 d8 b,8 fis'8 gis8 fis8 |%m31
+  a,8 fis'8 a8 fis8 fis,8 cis'8 a'8 cis,8 |%m32
+  bis8 fis'8 dis'8 fis,8 cis8 fis8 e'8 fis,8 |%m33
 }
 
 scoreAViolinIPart = \new Staff \with {
