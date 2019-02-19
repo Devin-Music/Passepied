@@ -5,7 +5,6 @@
   composer = "Claude Debussy"
   arranger = "arr. Devin Gonzales"
   copyright = "2019"
-  % Remove default LilyPond tagline
   tagline = ##f
 }
 
@@ -51,7 +50,7 @@ scoreAViolinI = \relative c'' {
     \break
   gis2~\( \cresc gis8 a8 b4~ |%m22
   b4 gis4 a4 b4\) |%m23
-    %No bad days.
+    %NO BAD DAYS
     \tuplet 3/2 {cis4--\( \mf cis4-- e4--\)} \tuplet 3/2 {cis4--\( b4-- cis4--\)} |%m24 
       \break
   a4\( cis4\) b2~ |%m25
